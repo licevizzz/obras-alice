@@ -1,0 +1,48 @@
+### 1. Buscar todas as obras
+GET http://localhost:3000/obras
+Content-Type: application/json
+
+###
+
+### 2. Buscar uma obra específica 
+GET http://localhost:3000/obras/6854625bc015ce9c727461ea
+Content-Type: application/json
+
+###
+
+### 3. Criar uma nova obra
+POST http://localhost:3000/obras
+Content-Type: application/json
+
+{"nome": "Construção do parque infantil",
+  "endereco": "Rua Acaiaca, 235",
+  "responsavel": "Eng. João Silva",
+  "status": "Em andamento",
+  "dataInicio": "2025-06-19"
+}
+
+
+###
+
+### 4. Atualizar uma obra 
+PUT http://localhost:3000/obras/68532814e3dde2ff260bf02bA
+Content-Type: application/json
+
+{
+  "nome": "Construção da Escola Municipal - Atualizada",
+  "endereco": "Rua das Flores, 123",
+  "responsavel": "Eng. João Silva",
+  "status": "Concluída"
+}
+
+###
+
+### 5. Deletar uma obra 
+DELETE http://localhost:3000/obras/ID_DA_OBRA
+Content-Type: application/json
+
+###
+
+### 6. Buscar fiscalizações de uma obra )
+GET http://localhost:3000/obras/ID_DA_OBRA/fiscalizacoes
+Content-Type: application/json

@@ -1,0 +1,13 @@
+# Evita subir dependências
+node_modules/
+
+# Evita subir variáveis sensíveis
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pastas do VS Code
+.vscode/
