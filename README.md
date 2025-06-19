@@ -20,7 +20,7 @@ Este é o backend para um aplicativo mobile de cadastro e acompanhamento de obra
 ## 🛠️ Instalação
 
 ```bash
-git clone <(https://github.com/licevizzz/obras-alice/tree/main)>
+git clone <https://github.com/licevizzz/obras-alice/tree/main>
 cd obras-backend
 npm install
 ```
